@@ -1,0 +1,27 @@
+{
+  "name": "botdiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "register": "node src/deploy-commands.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurelienAr/BotDiscord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AurelienAr/BotDiscord/issues"
+  },
+  "homepage": "https://github.com/AurelienAr/BotDiscord#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.5.1",
+    "discord-api-types": "^0.38.13",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.0"
+  }
+}
